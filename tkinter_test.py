@@ -32,6 +32,7 @@ def backupTargetDir():
     backupFolderVar.set(str(dir_))
     
 def execute():
+    print('\n\n\n')
     print("SourceFolder=", sourceFolderVar.get())
     print("TargetFolder=", targetFolderVar.get())
     print("MaakBackup=", maakBackup.get())
